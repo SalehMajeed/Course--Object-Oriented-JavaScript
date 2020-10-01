@@ -10,7 +10,7 @@ function user_form(name, age, email) {
 }
 
 const user_functions = {
-    login_attempt: function () {
+    login_attempt: () => {
         this.score++;
     },
 };
