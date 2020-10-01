@@ -15,5 +15,5 @@ const user_functions = {
     },
 };
 var users = {}
-users.x =  new user_form('anony', 33, 'anony@anony');
-users.y =  new user_form('persona', 20, 'persona@persona');
+users.x =  user_form('anony', 33, 'anony@anony');
+users.y =  user_form('persona', 20, 'persona@persona');
