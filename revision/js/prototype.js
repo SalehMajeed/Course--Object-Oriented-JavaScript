@@ -8,7 +8,7 @@ function person(first, last, age, email) {
     this.score = 0
 }
 
-person.prototype.login_attempt = function(){this.score++}
+person.prototype.login_attempt = ()=>{this.score++}
 
 var x = new person('anony','mous',21,'anony@anony')
 
